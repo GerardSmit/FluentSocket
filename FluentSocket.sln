@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentSocket.SourceGenerator", "src\FluentSocket.SourceGenerator\FluentSocket.SourceGenerator.csproj", "{BB48147E-3633-40B6-B536-12D7C75C7226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentSocket", "src\FluentSocket\FluentSocket.csproj", "{BC48FA38-5DD6-423F-9F1F-263A7DFB0783}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9E6BD5A9-7672-4DEA-ACB2-95C61291E254}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentSocket.Tests", "tests\FluentSocket.Tests\FluentSocket.Tests.csproj", "{06865675-3E83-4641-9012-FCE64EC11250}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentSocket.SourceGenerator.Tests", "tests\FluentSocket.SourceGenerator.Tests\FluentSocket.SourceGenerator.Tests.csproj", "{EB5AC995-5AED-4D29-8286-9F30FCF346C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB48147E-3633-40B6-B536-12D7C75C7226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB48147E-3633-40B6-B536-12D7C75C7226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB48147E-3633-40B6-B536-12D7C75C7226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB48147E-3633-40B6-B536-12D7C75C7226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC48FA38-5DD6-423F-9F1F-263A7DFB0783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC48FA38-5DD6-423F-9F1F-263A7DFB0783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC48FA38-5DD6-423F-9F1F-263A7DFB0783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC48FA38-5DD6-423F-9F1F-263A7DFB0783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06865675-3E83-4641-9012-FCE64EC11250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06865675-3E83-4641-9012-FCE64EC11250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06865675-3E83-4641-9012-FCE64EC11250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06865675-3E83-4641-9012-FCE64EC11250}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB5AC995-5AED-4D29-8286-9F30FCF346C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5AC995-5AED-4D29-8286-9F30FCF346C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5AC995-5AED-4D29-8286-9F30FCF346C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5AC995-5AED-4D29-8286-9F30FCF346C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06865675-3E83-4641-9012-FCE64EC11250} = {9E6BD5A9-7672-4DEA-ACB2-95C61291E254}
+		{EB5AC995-5AED-4D29-8286-9F30FCF346C9} = {9E6BD5A9-7672-4DEA-ACB2-95C61291E254}
+	EndGlobalSection
+EndGlobal
